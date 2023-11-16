@@ -140,7 +140,7 @@ def list_to_str(k):
 __repo__ = "https://t.me/anime_metavers"
 __version__ = "ASN movie bot ᴠ4.5.0"
 __license__ = "GNU GENERAL PUBLIC LICENSE V2"
-__copyright__ = "Copyright (C) 2023-present Mrprajwal <>"
+__copyright__ = "Copyright (C) 2023-present Mrprajwal <https://github.com/Asnetwork22>"
 
 async def search_gagala(text):
     usr_agent = {
