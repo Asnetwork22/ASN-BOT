@@ -75,7 +75,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 try: await query.message.reply_to_message.delete()
                 except: pass
-            else: await query.answer("Buddy Don't Touch Others Property 😁", show_alert=True)
+            else: await query.answer("Don't Touch Others Property 😁", show_alert=True)
             
     elif "groupcb" in query.data:
         group_id = query.data.split(":")[1]
@@ -468,7 +468,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/CORE_i9_BOTS')
             ],[
             InlineKeyboardButton('‹ Bᴀᴄᴋ', 'about')
         ]]
